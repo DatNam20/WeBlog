@@ -9,6 +9,17 @@ html, body {
 
 :root{
 
+    /* theme colors */
+    --grey: #4E545A;
+    --light-blue: #B1CCEA;
+    --black: #0F0F0F;
+    --white: #FFFFFF;
+    --dark-cyan: #086A6A;
+
+
+    /* gradient colors */
+    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+
 
     /* font-family */
     --Abel: 'Abel', cursive;
@@ -25,6 +36,7 @@ html, body {
 
 a{
     text-decoration: none;
+    color: var(--text-grey);
 }
 
 .flex-row{
