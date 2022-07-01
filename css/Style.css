@@ -12,14 +12,16 @@ html, body {
     /* theme colors */
     --grey: #4E545A;
     --light-blue: #B1CCEA;
+    --sky-blue: #E1F5F2;
     --black: #0F0F0F;
     --white: #FFFFFF;
     --dark-cyan: #086A6A;
     --cream: #E7CD74;
+    --light-cream: #FAF2D7;
 
 
     /* gradient colors */
-    --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    --sea: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);
 
 
     /* font-family */
@@ -32,6 +34,9 @@ html, body {
     --Raleway: 'Raleway', cursive;
     
 }
+
+
+
 
 /* -----xx----- Global classes -----xx----- */
 
@@ -50,17 +55,41 @@ ul{
     list-style-type: none;
 }
 
+h1{
+    font-family: var(--Josefin);
+    font-size: 2.8rem;
+}
+
+h2{
+    font-family: var(--Livvic);
+}
+
+h3{
+    font-family: var(--Livvic);
+    font-size: 1.4rem;
+}
+
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-size: 1.1rem;
+    font-family: var(--Livvic);
+    cursor: pointer;
+}
+
 /* -----xx----- Global classes -----xx----- */
+
 
 
 
 /* -----xx----- navbar -----xx----- */
 
 .nav{
-    background:white;
+    background: var(--sky-blue);
     padding: 0 2rem;
     height: 0rem;
-    min-height: 10vh;
+    min-height: 9vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
 }
@@ -98,7 +127,7 @@ ul{
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.6rem 1rem;
+    padding: 1.2rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Raleway);
@@ -134,6 +163,48 @@ ul{
 }
 
 /* -----xx----- navbar -----xx----- */
+
+
+
+
+/* -----xx----- Main Page -----xx----- */
+
+
+/* -----xx----- Site Title -----xx----- */
+main .site-title{
+    background: url('../assets/home_page_bg_img.jpg');
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+}
+
+main .site-title .site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: var(--white);
+}
+
+main .site-title h1, h3{
+    margin: .3rem;
+}
+
+main .site-title .btn{
+    margin: 1.8rem;
+    background: var(--sky-blue);
+    color: var(--grey);
+}
+
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid var(--white);
+    color: var(--white);
+}
+/* -----xx----- Site Title -----xx----- */
+
+
+/* -----xx----- Main Page -----xx----- */
+
 
 
 
