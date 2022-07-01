@@ -128,7 +128,7 @@ button.btn{
 }
 
 .nav .nav-items .nav-link{
-    padding: 1.2rem 1rem;
+    padding: 1.25rem 1rem;
     font-size: 1.1rem;
     position: relative;
     font-family: var(--Raleway);
@@ -160,7 +160,7 @@ button.btn{
 }
 
 .nav .social i:hover{
-    color: var(--light-blue);
+    color: var(--white);
 }
 
 /* -----xx----- navbar -----xx----- */
