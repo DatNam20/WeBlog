@@ -11,6 +11,7 @@ html, body {
 
     /* theme colors */
     --grey: #4E545A;
+    --shadow: #CFD1D1;
     --light-blue: #B1CCEA;
     --sky-blue: #E1F5F2;
     --black: #0F0F0F;
@@ -72,7 +73,7 @@ h3{
 button.btn{
     border: none;
     border-radius: 2rem;
-    padding: 1rem 3rem;
+    padding: 1rem 2rem;
     font-size: 1.1rem;
     font-family: var(--Livvic);
     cursor: pointer;
@@ -86,7 +87,7 @@ button.btn{
 /* -----xx----- navbar -----xx----- */
 
 .nav{
-    background: var(--sky-blue);
+    background: var(--shadow);
     padding: 0 2rem;
     height: 0rem;
     min-height: 9vh;
@@ -190,14 +191,16 @@ main .site-title h1, h3{
 }
 
 main .site-title .btn{
-    margin: 1.8rem;
-    background: var(--sky-blue);
+    margin: 1.7rem;
+    background: transparent;
+    border: 2px solid var(--white);
     color: var(--grey);
 }
 
 main .site-title .btn:hover{
     background: transparent;
-    border: 1px solid var(--white);
+    border-color: var(--grey);
+    font-size: 1.3rem;
     color: var(--white);
 }
 /* -----xx----- Site Title -----xx----- */
