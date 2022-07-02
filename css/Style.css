@@ -82,6 +82,11 @@ button.btn{
 span{
     font-family: var(--Abel);
 }
+
+.container{
+    margin: 0 5vw;
+}
+
 /* -----xx----- Global classes -----xx----- */
 
 
@@ -243,6 +248,25 @@ main .blog-content .btn-blog{
 
 main .blog-content span{
     display: block;
+}
+
+section .container .owl-nav{
+    position: absolute;
+    /* top: 0%; */
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--white);
+    background: transparent;
+    font-size: 1.8rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--cream);
 }
 /* -----xx----- Blog Carousel -----xx----- */
 
