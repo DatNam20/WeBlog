@@ -79,6 +79,9 @@ button.btn{
     cursor: pointer;
 }
 
+span{
+    font-family: var(--Abel);
+}
 /* -----xx----- Global classes -----xx----- */
 
 
@@ -170,7 +173,6 @@ button.btn{
 
 /* -----xx----- Main Page -----xx----- */
 
-
 /* -----xx----- Site Title -----xx----- */
 main .site-title{
     background: url('../assets/home_page_bg_img.jpg');
@@ -205,6 +207,44 @@ main .site-title .btn:hover{
 }
 /* -----xx----- Site Title -----xx----- */
 
+
+/* -----xx----- Blog Carousel -----xx----- */
+main .blog{
+    background: url(../assets/bg_img_6.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 110vh;
+    width: 100%;
+}
+
+main .blog .blog-post{
+    padding-top: 6rem;
+}
+
+main .blog-post .blog-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    margin: 3rem 2rem;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+main .blog-content .blog-title{
+    padding: 2rem, 0;
+    /* background: var(--shadow); */
+}
+
+main .blog-content .btn-blog{
+    padding: .7rem 2rem;
+    background: var(--light-cream);
+    margin: .5rem;
+}
+
+main .blog-content span{
+    display: block;
+}
+/* -----xx----- Blog Carousel -----xx----- */
 
 /* -----xx----- Main Page -----xx----- */
 
