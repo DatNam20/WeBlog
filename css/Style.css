@@ -330,6 +330,29 @@ main .post-content .post-title a{
     padding: .7rem 1.5rem;
     background: var(--sky-blue);
 }
+
+.site-content .pagination{
+    justify-content: center;
+    color: var(--grey);
+    margin: 4rem 0;
+}
+
+.site-content .pagination a{
+    padding: .6rem .9rem;
+    border-radius: 2rem;
+    margin: 0 .3rem;
+    font-family: var(--Abel);
+}
+
+.site-content .pagination .page-num{
+    background: var(--shadow);
+    color: var(--black);
+}
+
+.site-content .pagination .page-num:hover{
+    background: var(--dark-cyan);
+    color: var(--white);
+}
 /*-- -----xx----- Main Content -----xx----- */
         
 /* -----xx----- Main Page -----xx----- */
