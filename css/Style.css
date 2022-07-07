@@ -396,11 +396,11 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .newsletter{
-    padding-top: 3rem;
+    padding-top: 10rem;
 }
 
 .site-content .sidebar .newsletter .form-element{
-    padding: 5rem 2rem;
+    padding: 2rem 2rem;
 }
 
 .site-content .sidebar .newsletter .input-element{
@@ -415,7 +415,18 @@ main .post-content .post-title a{
     border-radius: 0;
     padding: 0.8rem 32%;
     margin: 1rem 0;
-    background-color: var(--cream);
+    background-color: var(--light-blue);
+}
+
+.site-content .sidebar .popular-tag{
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-tag .tags .tag{
+    background: var(--light-cream);
+    padding: .4rem 1rem;
+    border-radius: 2rem;
+    margin: .4rem .6rem;
 }
 /*-- -----xx----- Sidebar -----xx----- */
 
