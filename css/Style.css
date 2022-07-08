@@ -39,7 +39,8 @@ html, body {
 
 
 
-/* -----xx----- Global classes -----xx----- */
+
+/* --------xx-------- Global classes --------xx-------- */
 
 a{
     text-decoration: none;
@@ -95,12 +96,13 @@ p{
     font-family: var(--Abel);
     color: var(--black);
 }
-/* -----xx----- Global classes -----xx----- */
+/* --------xx-------- Global classes --------xx-------- */
 
 
 
 
-/* -----xx----- navbar -----xx----- */
+
+/* --------xx-------- Navigation bar --------xx-------- */
 
 .nav{
     background: var(--shadow);
@@ -179,12 +181,13 @@ p{
     color: var(--white);
 }
 
-/* -----xx----- navbar -----xx----- */
+/* --------xx-------- Navigation bar --------xx-------- */
 
 
 
 
-/* -----xx----- Main Page -----xx----- */
+
+/* --------xx-------- Main Page --------xx-------- */
 
 /* -----xx----- Site Title -----xx----- */
 main .site-title{
@@ -430,7 +433,81 @@ main .post-content .post-title a{
 }
 /*-- -----xx----- Sidebar -----xx----- */
 
-/* -----xx----- Main Page -----xx----- */
+/* --------xx-------- Main Page --------xx-------- */
+
+
+
+
+
+/* --------xx-------- Footer --------xx-------- */
+
+footer.footer{
+    height: 100%;
+    background: var(--black);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 2rem .7rem;
+}
+
+footer.footer .container h2{
+    color: var(--white);
+}
+
+footer.footer .container p{
+    color: var(--grey);
+    font-family: var(--Lexend);
+    font-size: .9rem;
+}
+
+footer.footer .container .newsletter .form-element{
+    background-color: var(--black);
+    display: inline-block;
+}
+
+/* footer.footer .container .newsletter p{
+    color: var(--grey);
+    font-family: var(--Lexend);
+    font-size: .9rem;
+} */
+
+footer.footer .newsletter .form-element input{
+    padding: .5rem .7rem;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: var(--Lexend);
+    width: 74%;
+}
+
+footer.footer .newsletter .form-element span{
+    background: var(--grey);
+    padding: .2rem .2rem;
+    cursor: pointer;
+}
+
+footer.footer .instagram div > img{
+    display: inline-block;
+    width: 25%;
+    height: 50%;
+    margin: .3rem .4rem;
+}
+
+footer.footer .follow div i{
+    color: var(--white);
+    padding: 0 .4rem;
+}
+
+/* --------xx-------- Footer --------xx-------- */
+
 
 
 
