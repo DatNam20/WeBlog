@@ -530,6 +530,30 @@ footer.footer-cls .go-to-top span:hover{
 
 
 
+/* -----xx----- for screen less than 1200 pixel width -----xx----- */
+
+@media only screen and (max-width: 1200px){
+    .site-content .post-content > .post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+
+    footer.footer-cls .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* -----xx----- for screen less than 1200 pixel width -----xx----- */
+
+
+
+
+
 /* -----xx----- for screen less than 750 pixel width -----xx----- */
 
 @media only screen and (max-width: 750px){
@@ -540,7 +564,46 @@ footer.footer-cls .go-to-top span:hover{
     .nav .toggle-collapse{
         display: initial;
     }
+
+    main .site-content{
+        grid-template-columns: 100%;
+    }
+
+    footer.footer-cls .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 /* -----xx----- for screen less than 750 pixel width -----xx----- */
+
+
+
+
+
+/* -----xx----- for screen less than 520 pixel width -----xx----- */
+
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+
+    .site-content .post-content > .post-image .post-info{
+        display: none;
+    }
+
+    footer.footer-cls .container > div{
+        padding: 1rem .9rem !important;
+    }
+
+    footer .copyright{
+        padding: 0 1.4rem;
+        text-align: center;
+    }
+
+    nav .toggle-collapse{
+        width: 85% !important;
+    }
+}
+
+/* -----xx----- for screen less than 520 pixel width -----xx----- */
 
