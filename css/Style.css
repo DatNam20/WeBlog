@@ -455,7 +455,7 @@ footer.footer .container{
 footer.footer .container > div{
     flex-grow: 1;
     flex-basis: 0;
-    padding: 2rem .7rem;
+    padding: 3rem .9rem;
 }
 
 footer.footer .container h2{
@@ -473,11 +473,11 @@ footer.footer .container .newsletter .form-element{
     display: inline-block;
 }
 
-/* footer.footer .container .newsletter p{
+footer.footer .container .newsletter p{
     color: var(--grey);
     font-family: var(--Lexend);
     font-size: .9rem;
-} */
+}
 
 footer.footer .newsletter .form-element input{
     padding: .5rem .7rem;
@@ -504,6 +504,15 @@ footer.footer .instagram div > img{
 footer.footer .follow div i{
     color: var(--white);
     padding: 0 .4rem;
+}
+
+footer.footer .copyright{
+    justify-content: center;
+    font-family: var(--Livvic);
+}
+
+footer.footer .copyright h4{
+    color: var(--shadow);
 }
 
 /* --------xx-------- Footer --------xx-------- */
