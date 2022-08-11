@@ -107,7 +107,7 @@ p{
 .nav{
     background: var(--shadow);
     padding: 0 2rem;
-    height: 0rem;
+    height: 0.8rem;
     min-height: 9vh;
     overflow: hidden;
     transition: height 1s ease-in-out;
@@ -192,8 +192,9 @@ p{
 /* -----xx----- Site Title -----xx----- */
 main .site-title{
     background: url('../assets/home_page_bg_img.jpg');
-    background-size: cover;
-    height: 110vh;
+    /* background-size: 100% 120%; */
+    background-size:cover;
+    height: 120vh;
     display: flex;
     justify-content: center;
 }
@@ -210,14 +211,13 @@ main .site-title h1, h3{
 
 main .site-title .btn{
     margin: 1.7rem;
-    background: transparent;
+    background-color: rgba(255, 255, 255, 0.6);
     border: 2px solid var(--white);
-    color: var(--grey);
+    color: var(--black);
 }
 
 main .site-title .btn:hover{
-    background: transparent;
-    border-color: var(--grey);
+    background: rgba(100, 100, 100, 0.8);
     font-size: 1.3rem;
     color: var(--white);
 }
@@ -226,7 +226,6 @@ main .site-title .btn:hover{
 
 /* -----xx----- Blog Carousel -----xx----- */
 main .blog{
-    background: url(../assets/bg_img_6.jpg);
     background-repeat: no-repeat;
     background-position: right;
     height: 110vh;
@@ -270,7 +269,7 @@ section .container .owl-nav{
 
 .owl-nav .owl-prev .owl-nav-prev,
 .owl-nav .owl-next .owl-nav-next{
-    color: var(--white);
+    color: var(--dark-cyan);
     background: transparent;
     font-size: 1.8rem;
 }
@@ -399,7 +398,7 @@ main .post-content .post-title a{
 }
 
 .site-content .sidebar .newsletter{
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .site-content .sidebar .newsletter .form-element{
@@ -416,21 +415,23 @@ main .post-content .post-title a{
 
 .site-content .sidebar .newsletter .form-btn{
     border-radius: 0;
-    padding: 0.8rem 32%;
+    padding: 0.4rem 32%;
     margin: 1rem 0;
     background-color: var(--light-blue);
 }
 
 .site-content .sidebar .popular-tag{
     padding-top: 8rem;
+   
 }
 
 .site-content .sidebar .popular-tag .tags .tag{
     background: var(--light-cream);
-    padding: .4rem 1rem;
+    padding: 0.8rem 1.6rem;
     border-radius: 2rem;
-    margin: .4rem .6rem;
+    margin: 0.4rem 0.6rem;
 }
+
 /*-- -----xx----- Sidebar -----xx----- */
 
 /* --------xx-------- Main Page --------xx-------- */
@@ -455,7 +456,7 @@ footer.footer-cls .container{
 footer.footer-cls .container > div{
     flex-grow: 1;
     flex-basis: 0;
-    padding: 3rem .9rem;
+    padding: 1rem .9rem;
 }
 
 footer.footer-cls .container h2{
@@ -511,7 +512,7 @@ footer.footer-cls .copyright h4{
 
 footer.footer-cls .go-to-top{
     position: absolute;
-    right: 4%;
+    right: 3%;
     top: 60%;
 }
 
@@ -522,7 +523,7 @@ footer.footer-cls .go-to-top span{
 footer.footer-cls .go-to-top span:hover{
     color: var(--white);
     cursor: pointer;
-}
+} 
 
 /* --------xx-------- Footer --------xx-------- */
 

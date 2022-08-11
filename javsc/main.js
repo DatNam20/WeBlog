@@ -45,10 +45,10 @@ $(document).ready(function(){
 
 
     //scroll up to top
-    $('go-to-top span').click(function(){
+    $('.go-to-top span').click(function(){
         $('html, body').animate({
             scrollTop: 0
-        }, 1000);
+        }, 2000);
     })
 
 
